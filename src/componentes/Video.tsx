@@ -15,7 +15,8 @@ const Video = (props: VideoProps) => {
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
           <iframe
-            src="https://www.youtube.com/watch?v=KJj70dBgRPo"
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/SO4-izct7Mc"
             frameBorder="1"
           ></iframe>
         </div>
