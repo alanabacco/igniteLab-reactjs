@@ -1,7 +1,12 @@
-import Evento from "./paginas/Evento";
+import { BrowserRouter } from "react-router-dom";
+import Rota from "./Rota";
 
 function App() {
-  return <Evento />;
+  return (
+    <BrowserRouter>
+      <Rota />
+    </BrowserRouter>
+  );
 }
 
 export default App;

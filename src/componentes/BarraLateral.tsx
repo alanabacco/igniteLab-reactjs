@@ -8,12 +8,18 @@ const BarraLateral = () => {
       </span>
 
       <div className="flex flex-col gap-8">
-        <Aula />
-        <Aula />
-        <Aula />
-        <Aula />
-        <Aula />
-        <Aula />
+        <Aula
+          titulo="Aula 01"
+          slug="aula-01"
+          dataDisponibilidade={new Date()}
+          tipo="aula"
+        />
+        <Aula
+          titulo="Aula 02"
+          slug="aula-02"
+          dataDisponibilidade={new Date()}
+          tipo="aoVivo"
+        />
       </div>
     </aside>
   );
