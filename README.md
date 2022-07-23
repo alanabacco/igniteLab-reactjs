@@ -25,8 +25,8 @@ Esse projeto foi desenvolvido durante Ignite Lab da [Rocketseat](https://rockets
 Para executar o projeto de maneira local, execute os comandos:
 
 ```
-> git clone https://github.com/alanabacco/igniteLab-reactjs
-> cd igniteLab-reactjs
+> git clone https://github.com/alanabacco/pagEventos-igniteLab-reactjs
+> cd pagEventos-igniteLab-reactjs
 > yarn ou npm install
 > yarn dev ou npm run dev
 ```
